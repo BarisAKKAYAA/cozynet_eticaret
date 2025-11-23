@@ -1,0 +1,73 @@
+src/
+ ├─ components/                     # Tekrar kullanılabilir tüm bileşenler
+ │   ├─ Layout/                     # Sayfa genelinde kullanılan bileşenler
+ │   │   ├─ Header.tsx
+ │   │   └─ Footer.tsx
+ │   │
+ │   ├─ Hero/
+ │   │   └─ HeroSection.tsx          # Ana banner veya slider
+ │   │
+ │   ├─ Products/
+ │   │   ├─ ProductSection.tsx       # Ürün listesi
+ │   │   ├─ ProductItem.tsx          # Tek bir ürün kartı  
+ │   │
+ │   ├─ PopularProducts /
+ │   │   ├─ SmallProductItem.tsx     # Küçük ürün kartı
+ │   │   └─ PopularProductsSection.tsx # Popüler ürün listesi
+ │   │
+ │   ├─ Features/
+ │   │   ├─ WhyChooseUsSection.tsx   # “Neden bizi seçmelisiniz” bölümü
+ │   │   └─ FeatureItem.tsx          # Tek bir özellik kartı
+ │   │
+ │   ├─ Testimonials/
+ │   │   ├─ TestimonialsSection.tsx  # Yorum listesi
+ │   │   └─ Testimonials.tsx         # Tek bir müşteri yorumu
+ │   │
+ │   ├─ Blog/
+ │   │   ├─ BlogSection.tsx          # Blog listesi
+ │   │   └─ BlogPostItem.tsx         # Tek bir blog yazısı
+ │   │
+ │   └─ WeHelp/
+ │       └─ WeHelpSection.tsx        # Yardım/servis bölümü
+ │
+ ├─ pages/                           # Sayfalar
+ │   └─ Home.tsx
+ │
+ │
+ ├─ App.tsx
+ └─ index.tsx
+
+
+
+
+| Klasör / Bileşen                         | Görev                                                       |
+| ---------------------------------------- | ----------------------------------------------------------- |
+
+| **Layout/Header.tsx**                    | Tüm sayfalarda üst navigasyon.                              |
+
+| **Layout/Footer.tsx**                    | Tüm sayfalarda alt bilgi bölümü.                            |
+
+| **Hero/HeroSection.tsx**                 | Ana banner / slider bölümü.                                 |
+
+| **Products/ProductSection.tsx**          | Ürün listesi bölümü, ProductItem kullanır.                  |
+
+| **Products/ProductItem.tsx**             | Tek bir ürün kartı.                                         |
+
+| **Products/SmallProductItem.tsx**        | Küçük boyutlu ürün kartı (sidebar/carousel).                |
+
+| **Products/PopularProductsSection.tsx**  | Popüler ürünleri listeler, ProductItem kullanır.            |
+
+| **Features/FeatureItem.tsx**             | Tek bir özellik veya avantaj kartı.                         |
+
+| **Features/WhyChooseUsSection.tsx**      | FeatureItem ile “neden bizi seçmelisiniz” bölümü.           |
+
+| **Testimonials/Testimonials.tsx**        | Tek bir müşteri yorumu kartı.                               |
+
+| **Testimonials/TestimonialsSection.tsx** | Testimonials bileşenlerini listeleyerek yorumları gösterir. |
+
+| **Blog/BlogPostItem.tsx**                | Tek bir blog yazısı kartı.                                  |
+
+| **Blog/BlogSection.tsx**                 | BlogPostItem ile blog bölümü.                               |
+
+| **WeHelp/WeHelpSection.tsx**             | Yardım veya servis tanıtım bölümü.                          |
+
